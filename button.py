@@ -11,9 +11,7 @@ class CalcButton():
         
         self.button = Button(master=self.master, text=self.text, command=command, bg=self.bg, fg = self.fg , font = font)
         
-    # def butt_pack(self):
-    #     self.button.grid()
-        
+
     def cget(self, text):
         self.button.cget(text)
     
